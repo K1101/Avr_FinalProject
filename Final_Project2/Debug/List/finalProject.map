@@ -1,8 +1,6 @@
 RAM Allocation [bytes]
 Variable                                                                          Address   Size
 ------------------------------------------------------------------------------------------------
-segd                                                                              0x0260      10
-_base_y                                                                           0x026A       4
 
 EEPROM Allocation [bytes]
 Variable                                                                          Address   Size
@@ -14,16 +12,9 @@ Variable                                                                        
 comp                                                                              R4,R5        2
 count                                                                             R6,R7        2
 i                                                                                 R8,R9        2
-_lcd_x                                                                            R11          1
-_lcd_y                                                                            R10          1
-_lcd_maxx                                                                         R13          1
 
 FLASH Allocation [words]
 Function                                                                          Address   Size
 ------------------------------------------------------------------------------------------------
-main                                                                              0x0006A     71
-timer0_ovf_isr                                                                    0x000B1     43
-_lcd_write_nibble_G100                                                            0x000DC     20
-_lcd_write_data                                                                   0x000F0     12
-lcd_clear                                                                         0x000FC     10
-lcd_init                                                                          0x00106     43
+main                                                                              0x00063     35
+timer0_comp_isr                                                                   0x00086     24
