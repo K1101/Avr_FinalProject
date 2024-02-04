@@ -1,7 +1,0 @@
-VERSION:3 SOURCE_TIMESTAMP:58425536
-NODE:I LEVEL:0 LINE:8 "C:\cvavr\inc\io.h"
-NODE:V LEVEL:0 LINE:9 "comp -> R4,R5"
-NODE:V LEVEL:0 LINE:10 "count -> R6,R7"
-NODE:V LEVEL:0 LINE:11 "number -> R8,R9"
-NODE:F LEVEL:0 LINE:12 "main(void)"
-NODE:F LEVEL:0 LINE:39 "timer0_comp_isr(void)"
